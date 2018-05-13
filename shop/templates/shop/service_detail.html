@@ -1,0 +1,41 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Welcome to {{service_detail.Company_Name}} Group {% endblock %}
+
+{% block content %}
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery=1 %}
+{% bootstrap_messages %}
+
+<style>
+	.custom-jumbotron{
+		border:  1px solid #e0e0e0;
+		box-shadow: 2px 3px 9px -1px rgba(0,0,0,0.3);
+	}
+</style>
+
+<div class="container ">
+	<div class="row">
+		<div class="jumbotron custom-jumbotron">
+			<h2 class="display-3">Details of {{ service_detail.Company_Name }} :</h2>
+			<hr class="my-4">
+			<ul class="lead list-group">
+			  <li class=""><p>Service Name : {{ service_detail.Service_name}}</p> </li>
+			  <li><p>Service Price : <code>{{ service_detail.Price}}</code></p> </li>
+			  <li class="">
+			  	<p>Supported Product : </p>
+				  	<ol>
+			  			{% for pro in service_detail.Product.all %}
+				  		<li>{{pro}}</li>
+			  			{% endfor %}
+			  		</ol>
+			  </li><br>
+			<li>Description : {{service_detail.Description}}</li>
+			<img src="{{service_detail.images}}" alt="">
+			</ul>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

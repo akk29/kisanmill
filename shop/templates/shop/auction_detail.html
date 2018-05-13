@@ -1,0 +1,60 @@
+			{% extends 'core/base.html' %}
+
+			{% block title %}Auction Detail {% endblock %}
+
+			{% block content %}
+			{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery=1 %}
+{% bootstrap_messages %}
+
+<style>
+	.custom-jumbotron{
+		border:  1px solid #e0e0e0;
+		box-shadow: 2px 3px 9px -1px rgba(0,0,0,0.3);
+	}
+	h2{
+		font-weight:  bold;
+		font-size:  2em;
+		font-family:  'Raleway';
+	}
+</style>
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="jumbotron custom-jumbotron">
+			<h2 class="display-3 ">Details of Auction:</h2>
+			<ul class=" lead">
+			<li> Product name : {{Auction_Detail.Product}} </li>
+			<li>Price : <code>{{Auction_Detail.Price}} Rs/Kg </code></li>
+			<li>Min_order : <code>{{Auction_Detail.Min_order}}</code></li>
+			<li>Quality : {{Auction_Detail.Quality}}</li>
+			<img src="{{Auction_detail.image}}" alt="">
+			<li>Created at : <code>{{ Auction_Detail.timestamp | timesince }} ago</code></li>
+			</ul>
+			<hr class="my-4">
+
+			<h2>Biddings:</h2>
+			{% if Auction_Detail.all_bidding %}
+				<li><p>All bidding to this Auction</p> </li>
+					{% for bid in Auction_Detail.all_bidding %}
+				<ul>
+					<li>{{bid.userwithprice}}</li>
+				</ul>
+
+				{% endfor %}
+
+			{% else %}
+				<ul>
+				<code><li class="lead"><p>There is no bidding for this Auction</p> </li></code>
+				</ul>
+			{% endif %}
+		</div>
+	</div>
+</div>
+			
+
+{% endblock %}

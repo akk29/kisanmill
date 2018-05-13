@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width ,maximum-scale=1.0 ">
+    <title>Details | {{product.Product_version}} |{{product.Product_name}}</title>
+    <link rel="stylesheet" href="{% static "customercorner/css/main.css" %}">
+  </head>
+  <body>
+
+          <div class = 'main'>
+            <ul>
+
+          <h1>General Details : </h1>
+          <li>Name : {{product.Product_name}}</li>
+          <li>Version : {{product.Product_version}}</li>
+          <li>Product Category : {{product.Product_typ}}</li>
+          <img src="{{product.get_image}}" alt="{{product.Product_name}}">
+          <img src="{{ product.Product_Images.url }}" alt="" >
+
+
+
+        </ul>
+        </div>
+<div>
+</div>
+        <div >
+
+          <h1>Pre Product info :</h1>
+
+          {% for info in product.preproductinfo %}
+          <p> <b>Method {{forloop.counter}} </b></p>
+          <li> Preffered Season : {{ info.Season }} </li>
+          <li> Investment Cost : {{ info.cost }} </li>
+          <li> Preffered Soil : {{ info.soil }} </li>
+
+            {% endfor %}
+
+
+        </div>
+
+        <div>
+
+          <h1>Nutrional Content and Advantages of {{product.productwithversion}}:</h1>
+          {% for nutrients in product.NutrionalContent %}
+          <li><p><b>Nutrional Content</p></b></li>
+          {{nutrients.NutrionalData}}
+          <br>
+          <p>Consumption Effects</p>
+          {{nutrients.ConsumptionEffect}}
+          {% endfor %}
+
+        </div>
+
+  </body>
+</html>

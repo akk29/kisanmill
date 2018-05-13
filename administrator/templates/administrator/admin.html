@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+{% block content %}
+
+
+<style>
+	.custom-div{
+		margin:  0 4%;
+	}
+</style>
+<div class="container">
+	<div class="row col-xs-12">
+		<ul>
+		  	<div class="well col-xs-3 custom-div custom-box-shadow">
+		  		<img src="../../../media/email.svg" class="card-img-top img-fluid img-thumbnail mx-auto d-block">
+		  		<li class="well list-group-item-info thumbnail"><a class="" href="/administrator/messages">Show Inbox -- UFS</a></li>
+		  	</div>
+		  	<div class="well col-xs-3 custom-div custom-box-shadow">
+		  	<img src="../../../media/auction.svg" class="card-img-top img-fluid img-thumbnail mx-auto d-block">
+		  		<li class="well list-group-item-info thumbnail"><a href="/shop/all_auctions/">List all Auctions and bidding</a></li>
+		  	</div>
+
+		  	<div class="well col-xs-3 custom-div custom-box-shadow">
+		  	<img src="../../../media/notebook.svg" class="card-img-top img-fluid img-thumbnail mx-auto d-block">
+		  		<li class=" well list-group-item-info thumbnail"><a href="/shop/all_services/">List all services</a></li>
+		  	</div>
+		</ul>
+	</div>
+</div>
+
+{% endblock %}
