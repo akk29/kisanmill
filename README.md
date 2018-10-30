@@ -34,7 +34,7 @@ Core app is used to handle the authentication system of the platform.
 ## Expert Corner App
 Expert Corner App is used to get the details of the zero day attack of the diseases on the crops.
 
-# Zero day disease sample submitted by the user on the Application
+### Zero day disease sample submitted by the user on the Application
 
 ![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/Snapshots/Disease%20report.png)
 
