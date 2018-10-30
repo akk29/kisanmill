@@ -6,14 +6,14 @@ KisanMill is an open source project for farmers , students ,customers built with
 
 The project has eight basic apps from which six are almost completed :
 
-* Administrator ( Admin panel to handle the queries and monitor the platform )
+* Administrator       ( Admin panel to handle the queries and monitor the platform. )
 * Accounts
-* Bond (A bond is to get the investment , facilities for a particular product.)
-* Customercorner (App to create/update all the categories and products.)
-* Core ( Handle authentication of the portal. )
-* Expertcorner ( Connect local universities students with the farmers. )
-* Shop ( App to list all the services , auctions , biddings.)
-* Ufs (Urgent feedback system. )
+* Bond                ( A bond is to get the investment , facilities for a particular product. )
+* Customercorner      ( App to create/update all the categories and products. )
+* Core                ( Handle authentication of the Application. )
+* Expertcorner        ( Connect local universities students with the farmers. )
+* Shop                ( App to list all the services , auctions , biddings. )
+* UFS                 ( Urgent Feedback System. )
 
 ## Administrator App
 Admin section to maintain the queries from farmers through ufs app and can see all the bidding made by farmers and customers.
@@ -31,10 +31,14 @@ The customers can see all products , add products , see categories.
 ## Core App
 Core app is used to handle the authentication system of the platform.
 
+## Expert Corner App
+Expert Corner App is used to get the details of the zero day attack of the diseases on the crops.
+
 ## Shop App
 Shop is the most important app where all the features will be present.
 
-The list of all features are here.
+The list of all features which are present in the Application are as follow :
+
 * Create an auction.
 * Check all the bidding on the auction.
 * Urgent feedback system.
