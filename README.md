@@ -65,11 +65,16 @@ They can tell about the attack and upload images of the attack so that it will h
 
 ## Installation Guide
 
-navigate to the directory by cloning project using
+navigate to the directory Code by cloning project using
 
->> git clone https://github.com/babygame0ver/KisanMill.git
+>> git clone https://github.com/hackath0n27/kisanmill.git
 
-navigate to the directory and type the follow command in the directory
+navigate to the directory kisanmill and Code
+
+>> cd kisanmill
+>> cd code
+
+Install the base packages for the proper functioning of the project
 
 >> pip install -r requirements.txt
 
@@ -81,6 +86,4 @@ open command line in the same directory
 
 >> python manage.py runserver
 
-open browser and navigate to the http://127.0.0.1:8000
-
-Signup and then login to see all the implementations.
+To see the website follow : http://127.0.0.1:8000
