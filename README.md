@@ -36,7 +36,7 @@ Expert Corner App is used to get the details of the zero day attack of the disea
 
 ### Zero day disease sample submitted by the user on the Application
 Image 1
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/Snapshots/Disease_report.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/disease_report.png)
 
 
 
