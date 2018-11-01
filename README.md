@@ -46,13 +46,13 @@ Join the farmers with investors on the basis of the their requirements like inve
 
 > 1. **Creating an new bond farmer.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/1_creating_a_new_bond.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/1_creating_a_new_bond.png)
 
 ---
 
 > 2. **List of all bonds b/w the farmers and the investors.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/2_list_all_bonds_between_people.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/2_list_all_bonds_between_people.png)
 ---
 
 
@@ -64,12 +64,12 @@ Core app is used to handle the authentication system of the platform. It is also
 
 > 1. **Category choosing page before login.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/1_category_login.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/1_category_login.png)
 ---
 
 > 2. **Login Page.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/2_login_page.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/2_login_page.png)
 ---
 
 
@@ -150,8 +150,9 @@ The list of all features which are present in the Application are as follow :
 Urgent feedback system provided to the farmers to direct contact to the government agencies to submit the sample of the zero day attack on the crops.
 They can tell about the attack and upload images of the attack so that it will help agencies to detect the new diseases.
 
-- Feedback form to submit the crop diseases and its images
+>  Feedback form to submit the crop diseases and its images
 ![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/ufs/giving_feedback_for_the_disease_to_the_organizations.png)
+---
 
 ## Technology Stack
 
