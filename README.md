@@ -44,12 +44,34 @@ Not implemented yet
 ## Bond App
 Join the farmers with investors on the basis of the their requirements like investment and requirements.
 
+> 1. **Creating an new bond farmer.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/creating_a_new_bond.png)
+---
+
+> 2. **List of all bonds b/w the farmers and the investors.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/list_all_bonds_between_people.png)
+---
+
 
 ## Customercorner App
 The customers can see all products , add products , see categories.
 
 ## Core App
 Core app is used to handle the authentication system of the platform. It is also used to maintain the user list on the platform
+
+> 1. **Category choosing page.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/creating_a_new_bond.png)
+---
+
+> 2. **Login Page.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/list_all_bonds_between_people.png)
+---
+
+
 
 ## Expert Corner App
 Expertcorner App is used by the students,teachers and researchers to interact with the farmers. Find a cure for the solution.
