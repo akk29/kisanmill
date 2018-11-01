@@ -18,22 +18,22 @@ The project has eight basic apps from which six are almost completed :
 ## Administrator App
 Admin section to maintain the queries from farmers through ufs app and can see all the bidding made by farmers and customers.
 
-> - **Main Admin page and all of its options**
+> 1. **Main Admin page and all of its options**
 
 ![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/main_administrator_page.png)
 ---
 
-> - **Adding new product for the farmers in the panel.**
+> 2. **Adding new product for the farmers in the panel.**
 
 ![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/adding_new_product_from_admin_panel.png)
 ---
 
-> - **Complaint list Inbox in the Admin Account  / Reports Submitted by the Farmers on the affected crops**
+> 3. **Complaint list Inbox in the Admin Account  / Reports Submitted by the Farmers on the affected crops**
 
 ![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/compaint_list_inbox.png)
 ---
 
-> - **Zero day disease sample submitted by the farmers on the Application.**
+> 4. **Zero day disease sample submitted by the farmers on the Application.**
 
 ![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/disease_report.png)
 ---
