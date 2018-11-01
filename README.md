@@ -25,7 +25,7 @@ Admin section to maintain the queries from farmers through ufs app and can see a
 
 > 2. **Adding new product for the farmers in the panel.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/2_adding_new_product_from_admin_panel.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/2_list_of_all_products_from_admin_panel.png)
 ---
 
 > 3. **Complaint list Inbox in the Admin Account  / Reports Submitted by the Farmers on the affected crops.**
@@ -131,7 +131,7 @@ The list of all features which are present in the Application are as follow :
 ---
 
 
-> 10. **Detail of biddings on auction of crop.**
+> 10. **Detail of biddings on a crop.**
 
 ![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/10_details_of_a_bidding_on_auction_of_crops.png)
 ---
