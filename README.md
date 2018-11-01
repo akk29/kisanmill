@@ -18,24 +18,24 @@ The project has eight basic apps from which six are almost completed :
 ## Administrator App
 Admin section to maintain the queries from farmers through ufs app and can see all the bidding made by farmers and customers.
 
-> 1. **Main Admin page and all of its options**
+> 1. **Main Admin page and all of its options.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/main_administrator_page.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/1_main_administrator_page.png)
 ---
 
 > 2. **Adding new product for the farmers in the panel.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/adding_new_product_from_admin_panel.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/2_adding_new_product_from_admin_panel.png)
 ---
 
-> 3. **Complaint list Inbox in the Admin Account  / Reports Submitted by the Farmers on the affected crops**
+> 3. **Complaint list Inbox in the Admin Account  / Reports Submitted by the Farmers on the affected crops.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/compaint_list_inbox.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/3_compaint_list_inbox.png)
 ---
 
 > 4. **Zero day disease sample submitted by the farmers on the Application.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/disease_report.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/4_disease_report.png)
 ---
 
 ## Accounts App
@@ -46,12 +46,13 @@ Join the farmers with investors on the basis of the their requirements like inve
 
 > 1. **Creating an new bond farmer.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/category_login.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/1_creating_a_new_bond.png)
+
 ---
 
 > 2. **List of all bonds b/w the farmers and the investors.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/login_page.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/2_list_all_bonds_between_people.png)
 ---
 
 
@@ -61,14 +62,14 @@ The customers can see all products , add products , see categories.
 ## Core App
 Core app is used to handle the authentication system of the platform. It is also used to maintain the user list on the platform
 
-> 1. **Category choosing page.**
+> 1. **Category choosing page before login.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/creating_a_new_bond.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/1_category_login.png)
 ---
 
 > 2. **Login Page.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/core/list_all_bonds_between_people.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/2_login_page.png)
 ---
 
 
@@ -82,23 +83,75 @@ Shop is the most important app where all the features will be present.
 
 The list of all features which are present in the Application are as follow :
 
-* Create an auction.
-* Check all the bidding on the auction.
-* Urgent feedback system.
-* Create a new service.
-* List all services provided to the farmers.
-* Create a new bond.
-* List all bonds.
 
-## Expertcorner App
-Not implemented yet (but it will join the local students with the farmers so that they can help the farmers.)
+> 1. **Landing Page 1.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/1_landing_page_1.png)
+---
+
+> 2. **Landing Page 2.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/2_landing_page_2.png)
+---
+
+> 3. **Landing Page 3.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/3_landing_page_3.png)
+---
+
+> 4. **Creating a new service for farmer.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/4_creating_a_new_services_for_the_farmers.png)
+---
+
+
+> 6. **List of all services made by the vendor.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/5_list_of_all_services_for_the_farmers.png)
+---
+
+> 6. **Details of a service for the farmer provided by the vendor.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/6_details_of_a_service_for_the_farmer_provided_by_the_vendor.png)
+---
+
+> 7. **Details of another service for the farmer provided by the vendor.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/7_detail_of_another_service_for_the_farmer_provided_by_the_vendor.png)
+---
+
+> 8. **Creating auction for the crops (by farmer).**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/8_creating_auction_for_the_crop_by_farmer.png)
+---
+
+> 9. **List of all Auction of a farmer.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/9_list_of_all_auction_of_a_farmer.png)
+---
+
+
+> 10. **Detail of biddings on auction of crop.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/10_details_of_a_bidding_on_auction_of_crops.png)
+---
+
+> 11. **Customer bidding on the crop.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/11_customer_bidding_on_the_product.png)
+---
+
+> 12. **List of all auctions for the customer to bid.**
+
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/shop/12_list_of_all_auction_for_bidding_by_customer.png)
+---
 
 ## UFS App
 Urgent feedback system provided to the farmers to direct contact to the government agencies to submit the sample of the zero day attack on the crops.
 They can tell about the attack and upload images of the attack so that it will help agencies to detect the new diseases.
 
 - Feedback form to submit the crop diseases and its images
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/giving_feedback_for_the_disease_to_the_organizations.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/ufs/giving_feedback_for_the_disease_to_the_organizations.png)
 
 ## Technology Stack
 
