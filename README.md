@@ -46,12 +46,12 @@ Join the farmers with investors on the basis of the their requirements like inve
 
 > 1. **Creating an new bond farmer.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/creating_a_new_bond.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/category_login.png)
 ---
 
 > 2. **List of all bonds b/w the farmers and the investors.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/list_all_bonds_between_people.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/bond/login_page.png)
 ---
 
 
