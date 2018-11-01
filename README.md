@@ -20,22 +20,22 @@ Admin section to maintain the queries from farmers through ufs app and can see a
 
 > 1. **Main Admin page and all of its options**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/main_administrator_page.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/main_administrator_page.png)
 ---
 
 > 2. **Adding new product for the farmers in the panel.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/adding_new_product_from_admin_panel.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/adding_new_product_from_admin_panel.png)
 ---
 
 > 3. **Complaint list Inbox in the Admin Account  / Reports Submitted by the Farmers on the affected crops**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/compaint_list_inbox.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/compaint_list_inbox.png)
 ---
 
 > 4. **Zero day disease sample submitted by the farmers on the Application.**
 
-![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/disease_report.png)
+![alt text](https://github.com/hackath0n/kisanmill/blob/master/docs/snapshots/admin/disease_report.png)
 ---
 
 ## Accounts App
