@@ -7,7 +7,7 @@ KisanMill is an open source project for farmers , students ,customers built with
 The project has eight basic apps from which six are almost completed :
 
 * Administrator       ( Admin panel to handle the queries and monitor the platform. )
-* Accounts
+* Accounts            (Handle Authentication part of the whole App. )
 * Bond                ( A bond is to get the investment , facilities for a particular product. )
 * Customercorner      ( App to create/update all the categories and products. )
 * Core                ( Handle authentication of the Application. )
@@ -52,7 +52,7 @@ Join the farmers with investors on the basis of the their requirements like inve
 
 > 2. **List of all bonds b/w the farmers and the investors.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/bond/2_list_all_bonds_between_people.png)
+![alt text](docs/snapshots/bond/2_list_all_bonds_between_people.png)
 ---
 
 
@@ -64,12 +64,12 @@ Core app is used to handle the authentication system of the platform. It is also
 
 > 1. **Category choosing page before login.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/core/1_category_login.png)
+![alt text](docs/snapshots/core/1_category_login.png)
 ---
 
 > 2. **Login Page.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/core/2_login_page.png)
+![alt text](docs/snapshots/core/2_login_page.png)
 ---
 
 
@@ -86,64 +86,64 @@ The list of all features which are present in the Application are as follow :
 
 > 1. **Landing Page 1.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/1_landing_page_1.png)
+![alt text](docs/snapshots/shop/1_landing_page_1.png)
 ---
 
 > 2. **Landing Page 2.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/2_landing_page_2.png)
+![alt text](docs/snapshots/shop/2_landing_page_2.png)
 ---
 
 > 3. **Landing Page 3.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/3_landing_page_3.png)
+![alt text](docs/snapshots/shop/3_landing_page_3.png)
 ---
 
 > 4. **Creating a new service for farmer.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/4_creating_a_new_services_for_the_farmers.png)
+![alt text](docs/snapshots/shop/4_creating_a_new_services_for_the_farmers.png)
 ---
 
 
 > 6. **List of all services made by the vendor.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/5_list_of_all_services_for_the_farmers.png)
+![alt text](docs/snapshots/shop/5_list_of_all_services_for_the_farmers.png)
 ---
 
 > 6. **Details of a service for the farmer provided by the vendor.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/6_details_of_a_service_for_the_farmer_provided_by_the_vendor.png)
+![alt text](docs/snapshots/shop/6_details_of_a_service_for_the_farmer_provided_by_the_vendor.png)
 ---
 
 > 7. **Details of another service for the farmer provided by the vendor.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/7_detail_of_another_service_for_the_farmer_provided_by_the_vendor.png)
+![alt text](docs/snapshots/shop/7_detail_of_another_service_for_the_farmer_provided_by_the_vendor.png)
 ---
 
 > 8. **Creating auction for the crops (by farmer).**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/8_creating_auction_for_the_crop_by_farmer.png)
+![alt text](docs/snapshots/shop/8_creating_auction_for_the_crop_by_farmer.png)
 ---
 
 > 9. **List of all Auction of a farmer.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/9_list_of_all_auction_of_a_farmer.png)
+![alt text](docs/snapshots/shop/9_list_of_all_auction_of_a_farmer.png)
 ---
 
 
 > 10. **Detail of biddings on a crop.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/10_details_of_a_bidding_on_auction_of_crops.png)
+![alt text](docs/snapshots/shop/10_details_of_a_bidding_on_auction_of_crops.png)
 ---
 
 > 11. **Customer bidding on the crop.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/11_customer_bidding_on_the_product.png)
+![alt text](docs/snapshots/shop/11_customer_bidding_on_the_product.png)
 ---
 
 > 12. **List of all auctions for the customer to bid.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/shop/12_list_of_all_auction_for_bidding_by_customer.png)
+![alt text](docs/snapshots/shop/12_list_of_all_auction_for_bidding_by_customer.png)
 ---
 
 ## UFS App
@@ -151,7 +151,7 @@ Urgent feedback system provided to the farmers to direct contact to the governme
 They can tell about the attack and upload images of the attack so that it will help agencies to detect the new diseases.
 
 >  Feedback form to submit the crop diseases and its images
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/ufs/giving_feedback_for_the_disease_to_the_organizations.png)
+![alt text](docs/snapshots/ufs/giving_feedback_for_the_disease_to_the_organizations.png)
 ---
 
 ## Technology Stack
