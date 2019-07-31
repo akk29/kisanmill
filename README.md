@@ -170,8 +170,7 @@ navigate to the directory Code by cloning project using
 
 navigate to the directory kisanmill and Code
 
->> cd kisanmill
->> cd code
+>> cd kisanmill/code
 
 Install the base packages for the proper functioning of the project
 
