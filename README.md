@@ -20,22 +20,22 @@ Admin section to maintain the queries from farmers through ufs app and can see a
 
 > 1. **Main Admin page and all of its options.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/admin/1_main_administrator_page.png)
+![alt text](docs/snapshots/admin/1_main_administrator_page.png)
 ---
 
 > 2. **Adding new product for the farmers in the panel.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/admin/2_list_of_all_products_from_admin_panel.png)
+![alt text](docs/snapshots/admin/2_list_of_all_products_from_admin_panel.png)
 ---
 
 > 3. **Complaint list Inbox in the Admin Account  / Reports Submitted by the Farmers on the affected crops.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/admin/3_compaint_list_inbox.png)
+![alt text](docs/snapshots/admin/3_compaint_list_inbox.png)
 ---
 
 > 4. **Zero day disease sample submitted by the farmers on the Application.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/admin/4_disease_report.png)
+![alt text](docs/snapshots/admin/4_disease_report.png)
 ---
 
 ## Accounts App
@@ -46,7 +46,7 @@ Join the farmers with investors on the basis of the their requirements like inve
 
 > 1. **Creating an new bond farmer.**
 
-![alt text](https://github.com/pr0jects/kisanmill/blob/master/docs/snapshots/bond/1_creating_a_new_bond.png)
+![alt text](docs/snapshots/bond/1_creating_a_new_bond.png)
 
 ---
 
