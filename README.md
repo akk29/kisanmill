@@ -162,26 +162,18 @@ They can tell about the attack and upload images of the attack so that it will h
 - jQuery 2
 - javascript
 
-## Installation Guide
+## Running Web App in Just 30 Sec.
 
 navigate to the directory Code by cloning project using
 
 >> git clone https://github.com/pr0jects27/kisanmill.git
 
-navigate to the directory kisanmill and Code
-
 >> cd kisanmill/code
-
-Install the base packages for the proper functioning of the project
 
 >> pip install -r requirements.txt
 
-
 ## Demo
-
-After Installation and setup navigate to the directory
-open command line in the same directory
 
 >> python manage.py runserver
 
-To see the website follow : http://127.0.0.1:8000
+App is live at : http://127.0.0.1:8000
