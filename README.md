@@ -1,21 +1,20 @@
 ## Running Web App in Just 30 Sec.
 
-navigate to the directory Code by cloning project using
+```
+
+baby@baby:~$ git clone https://github.com/pr0jects27/kisanmill.git
+baby@baby:~$ cd kisanmill/code
+baby@baby:~$ pip install -r requirements.txt
+baby@baby:~$ python manage.py runserver
 
 ```
 
-git clone https://github.com/pr0jects27/kisanmill.git
-cd kisanmill/code
-pip install -r requirements.txt
-python manage.py runserver
+## Demo : [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-```
 
-## Demo
+# Documentation
 
-Visit : [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
-# KisanMill : Mill for Kisan
+## KisanMill : Mill for Kisan
 
 KisanMill is a platform for the farmers , customers and students where farmers can sell their product directly to the customers by eliminating the process of the middle man. They can also contact government to submit the sample of the zero day attack of the diseases on the crops and much more. The people can create services for the farmers like cold storage , combines and farmers can contact them by comparing their price and location. Students can help the farmers directly from the portal.
 
@@ -25,7 +24,7 @@ KisanMill is an open source project for farmers , students ,customers built with
 The project has eight basic apps from which six are almost completed :
 
 * Administrator       ( Admin panel to handle the queries and monitor the platform. )
-* Accounts            (Handle Authentication part of the whole App. )
+* Accounts            ( Handles Authentication part of the whole App. )
 * Bond                ( A bond is to get the investment , facilities for a particular product. )
 * Customercorner      ( App to create/update all the categories and products. )
 * Core                ( Handle authentication of the Application. )
