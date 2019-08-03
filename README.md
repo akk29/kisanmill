@@ -1,4 +1,20 @@
-# KisanMill
+## Running Web App in Just 30 Sec.
+
+navigate to the directory Code by cloning project using
+
+'''
+git clone https://github.com/pr0jects27/kisanmill.git
+cd kisanmill/code
+pip install -r requirements.txt
+python manage.py runserver
+'''
+
+## Demo
+
+Visit : [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+# KisanMill : Mill for Kisan
+
 KisanMill is a platform for the farmers , customers and students where farmers can sell their product directly to the customers by eliminating the process of the middle man. They can also contact government to submit the sample of the zero day attack of the diseases on the crops and much more. The people can create services for the farmers like cold storage , combines and farmers can contact them by comparing their price and location. Students can help the farmers directly from the portal.
 
 
@@ -162,18 +178,4 @@ They can tell about the attack and upload images of the attack so that it will h
 - jQuery 2
 - javascript
 
-## Running Web App in Just 30 Sec.
 
-navigate to the directory Code by cloning project using
-
->> git clone https://github.com/pr0jects27/kisanmill.git
-
->> cd kisanmill/code
-
->> pip install -r requirements.txt
-
-## Demo
-
->> python manage.py runserver
-
-App is live at : http://127.0.0.1:8000
