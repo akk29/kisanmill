@@ -2,10 +2,10 @@
 
 ```
 
-baby@baby:~$ git clone https://github.com/pr0jects27/kisanmill.git
-baby@baby:~$ cd kisanmill/code
-baby@baby:~$ pip install -r requirements.txt
-baby@baby:~$ python manage.py runserver
+git clone https://github.com/pr0jects27/kisanmill.git
+cd kisanmill/code
+pip install -r requirements.txt
+python manage.py runserver
 
 ```
 
