@@ -2,7 +2,7 @@
 
 ```
 
-git clone https://github.com/pr0jects27/kisanmill.git
+git clone https://github.com/babygame0ver/kisanmill.git
 cd kisanmill/code
 pip install -r requirements.txt
 python manage.py runserver
