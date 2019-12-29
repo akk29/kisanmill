@@ -4,6 +4,9 @@ Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
 
 ---
 
+[![Build Status](https://travis-ci.org/babygame0ver/kisanmill.svg?branch=master&style=flat-square)](https://travis-ci.org/babygame0ver/kisanmill)
+
+
 ## Dependencies
 
 [![Python](https://img.shields.io/badge/python-2.7.16-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-2716/)
