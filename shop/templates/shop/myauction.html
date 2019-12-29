@@ -1,0 +1,52 @@
+{% extends 'core/base.html' %}
+{% block content %}
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery=1 %}
+{% bootstrap_messages %}
+<style>
+	.custom-rule{
+		display: table;
+		margin:  0 auto;
+		width:  55%;
+	}
+	h1{
+	  color:  #337ab7;
+	  text-align: center;
+	}
+</style>
+<ul>
+ <li class="btn  well list-group-item-info"><a href="/shop">{% bootstrap_icon "star" %}Back to Kisan shop</a></li>
+  <!-- <li><a href="/shop/auction/">Create an Auction</a></li>
+  <li><a href="/shop/myauction/">My Auctions List</a></li> -->
+</ul>
+
+
+<ol>
+
+
+<div class="list-group custom-rule">
+<h1 class="well thumbnail custom-box-shadow">My Auctions and Biddings<br>
+<!-- <h1 class="thumbnail well"> -->Services for the Kisan</h1>
+
+	<ol class="well col-md-12 custom-box-shadow">
+		{% for datum in data %}
+		  	<div class="btn btn-info well thumbnail" style="background: #5bc0de"><li class=""><a class="well btn-primary list-group-item list-group-item-info" href="{% url 'shop:auction_detail' datum.pk %}">({{datum}}) --- {{datum.Price}} Rs/Kg </a></li></div>
+		{% endfor %}
+	</ol>
+</div>
+
+
+
+<!-- {% for datum in data %} -->
+<!-- <ul>
+
+ {% for data in datum.bidding_set.all %}
+ <li>{{data.userwithprice}} </li>
+ {% endfor %}
+</ul> -->
+<!-- {% endfor %} -->
+</ol>
+
+
+{% endblock %}

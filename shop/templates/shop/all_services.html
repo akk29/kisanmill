@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+{% block title %}All Services{% endblock %}
+{% block content %}
+{% load bootstrap3 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery=1 %}
+{% bootstrap_messages %}
+
+
+<style>
+	.custom-rule
+	{
+		display: table;
+		margin:  0 auto;
+		width:  55%;
+	}
+	h1{
+	  color:  #337ab7;
+	  text-align: center;
+	}
+</style>
+<div class="list-group custom-rule">
+<h1 class="thumbnail well custom-box-shadow">Services for the Kisan</h1>
+
+	<ol class="well col-md-12 custom-box-shadow">
+		{% for service in All_services %}
+		  	<div class="btn btn-info well thumbnail" style="background: #5bc0de"><li class=""><a class="well btn-primary list-group-item list-group-item-info" href="{% url 'shop:service_detail' service.pk %}">{{service}}</a></li></div>
+		{% endfor %}
+	</ol>
+</div>
+{% endblock %}

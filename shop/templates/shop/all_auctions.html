@@ -1,0 +1,49 @@
+{% extends 'core/base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+
+
+
+
+
+
+
+
+<style>
+	.custom-rule{
+		display: table;
+		margin:  0 auto;
+		width:  55%;
+	}
+	h2{
+	  color:  #337ab7;
+	  text-align: center;
+	  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2) !important;
+	}
+</style>
+
+<div class="list-group custom-rule">
+	<!-- <div class="container"> -->
+		<div class="row">
+			<h2 class="thumbnail well">All Auctions</h2>
+		</div>
+		<div class="row">
+			<div class="well col-md-12" style="box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2) !important">
+				<ol>
+					{% for auction in AllAuctions %}
+					  <div class="btn btn-info well thumbnail" style="background: #5bc0de"> <li ><a class="well btn-primary list-group-item list-group-item-info" href="{% url 'shop:auction_detail' auction.pk %}">{{auction}} -- {{auction.timestamp | timesince }} ago</a></li></div>
+					{% endfor %}
+				</ol>
+			</div>
+		</div>
+	<!-- </div> -->
+</div>
+
+
+
+
+
+
+{% endblock %}
