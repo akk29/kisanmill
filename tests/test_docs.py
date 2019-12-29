@@ -1,4 +1,4 @@
-import json ,logging , os , requests, unittest
+import json ,logging , os , unittest
 
 class TestAuth(unittest.TestCase):
 
