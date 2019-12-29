@@ -1,7 +1,19 @@
-## Running Web App in Just 30 Sec.
+# KisanMill
+
+Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
+
+---
+
+## Dependencies
+
+[![Python](https://img.shields.io/badge/python-2.7.16-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-2716/)
+[![Django Web Framework](https://img.shields.io/badge/Django-1.11.10-blue.svg?style=flat-square)](https://pypi.org/project/Django/1.11.10/)
+
+---
+
+## Configuration & Installation Guide (30 Sec)
 
 ```
-
 git clone https://github.com/babygame0ver/kisanmill.git
 cd kisanmill/code
 pip install -r requirements.txt
@@ -9,8 +21,9 @@ python manage.py runserver
 
 ```
 
-## Demo : [http://127.0.0.1:8000](http://127.0.0.1:8000)
+---
 
+## Demo : [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 # Documentation
 
@@ -19,7 +32,7 @@ python manage.py runserver
 KisanMill is a platform for the farmers , customers and students where farmers can sell their product directly to the customers by eliminating the process of the middle man. They can also contact government to submit the sample of the zero day attack of the diseases on the crops and much more. The people can create services for the farmers like cold storage , combines and farmers can contact them by comparing their price and location. Students can help the farmers directly from the portal.
 
 
-KisanMill is an open source project for farmers , students ,customers built with [Python][2.7] using the [Django Web Framework][1.11].
+KisanMill is an open source project for farmers , students ,customers built with [![Python](https://img.shields.io/badge/python-2.7.16-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-2716/) using the [![Django Web Framework](https://img.shields.io/badge/Django-1.11.10-blue.svg?style=flat-square)](https://pypi.org/project/Django/1.11.10/) .
 
 The project has eight basic apps from which six are almost completed :
 
@@ -161,6 +174,7 @@ The list of all features which are present in the Application are as follow :
 > 12. **List of all auctions for the customer to bid.**
 
 ![alt text](docs/snapshots/shop/12_list_of_all_auction_for_bidding_by_customer.png)
+
 ---
 
 ## UFS App
@@ -170,13 +184,3 @@ They can tell about the attack and upload images of the attack so that it will h
 >  Feedback form to submit the crop diseases and its images
 ![alt text](docs/snapshots/ufs/giving_feedback_for_the_disease_to_the_organizations.png)
 ---
-
-## Technology Stack
-
-- Python 2.7 / 3.5
-- Django > 1.11
-- Twitter Bootstrap 3
-- jQuery 2
-- javascript
-
-
