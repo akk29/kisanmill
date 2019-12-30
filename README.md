@@ -29,4 +29,4 @@ python manage.py runserver 0.0.0.0:8000
 
 # Documentation
 
-[Docs](documentation.md)
+[Docs](docs.md)
