@@ -47,7 +47,6 @@ INSTALLED_APPS = [
     'bond',
     'expertcorner',
     'bootstrap3'
-
 ]
 
 

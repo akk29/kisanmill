@@ -1,1 +1,1 @@
-web: gunicorn CareerFinder.wsgi
+web: gunicorn kisanmill.wsgi
