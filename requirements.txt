@@ -1,4 +1,4 @@
-Django==1.11.10
+Django==1.11.28
 django-bootstrap3==9.1.0
 pytz==2018.3
 gunicorn
