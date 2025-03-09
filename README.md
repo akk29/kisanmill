@@ -2,11 +2,6 @@
 
 Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
 
----
-
-[![Build Status](https://travis-ci.org/babygame0ver/kisanmill.svg?branch=master&style=flat-square)](https://travis-ci.org/babygame0ver/kisanmill)
-
-
 ## Dependencies
 
 [![Python](https://img.shields.io/badge/python-2.7.16-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-2716/)
@@ -14,19 +9,38 @@ Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
 
 ---
 
-## Configuration & Installation Guide (30 Sec)
+### 1. Steps for setting project locally - via source code (Will take time)
 
 ```
-git clone https://github.com/babygame0ver/kisanmill.git && cd kisanmill/code
+# download source code
+git clone https://github.com/babygame0ver/kisanmill
+
+# go inside directory
+cd kisanmill
+
+# install, create virtualenv and activate virtualenv (optional)
+pip install virtualenv 
+virtualenv venv
+source venv/bin/activate
+
+# install requirements
 pip install -r requirements.txt
-python manage.py runserver 0.0.0.0:8000
 
+# run development server locally
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 0.0.0.0:8080
 ```
 
----
+### 2. Steps for runing project locally - via Docker image (Easy & preferred - no dependencies installation)
 
-## Demo : [http://127.0.0.1:8000](http://127.0.0.1:8000)
+Pull publicly hosted image from docker repository & run directly on your system
 
-# Documentation
+```
+docker run -d -p 8080:8000 --name kisanmill babygame0ver/docker-repository:kisanmill
+```
 
-[Docs](docs.md)
+## Demo : [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser
+
+
+[Documentation](docs.md)
