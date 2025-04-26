@@ -30,6 +30,5 @@ class Categories(ListView):
 
 def category_products_list(request,pk):
     data = Product_type.objects.get(id=pk)
-    print data
     context = {'all_products' : data}
     return (request,'customercorner/category_products.html',context)

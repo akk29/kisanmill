@@ -13,20 +13,21 @@ Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
 
 ```
 # download source code
-git clone https://github.com/babygame0ver/kisanmill
+git clone https://github.com/akk29/kisanmill
 
 # go inside directory
 cd kisanmill
 
-# install, create virtualenv and activate virtualenv (optional)
-pip install virtualenv 
-virtualenv venv
-source venv/bin/activate
+# path to python 2.7.16, setting up virtual environment
+python.exe -m pip install --trusted-host pypi.python.org virtualenv
+python -m virtualenv .venv
+source .venv/bin/activate
 
 # install requirements
 pip install -r requirements.txt
 
 # run development server locally
+python manage.py collectstatic --no-input
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver 0.0.0.0:8080

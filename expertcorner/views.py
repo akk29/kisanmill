@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import ExpertCorner
-from django.views.generic import CreateView , ListView
+from django.views.generic import CreateView
 
 class ExpertCornerCreateView(CreateView):
     model = ExpertCorner

@@ -1,5 +1,4 @@
 Clone the repo into the local system
-
 ->. navigate to directory kisanmill
 
 run the following commands  by opening a command line in the same directory

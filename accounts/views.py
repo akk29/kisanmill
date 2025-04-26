@@ -11,6 +11,7 @@ def profile(request):
     return redirect('/shop/')
 
 class Myproducts(UpdateView,LoginRequiredMixin):
+    
     form_class = MyproductsForm
     template_name = 'accounts/Myproducts.html'
 

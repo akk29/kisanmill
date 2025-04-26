@@ -10,7 +10,6 @@ class BondCreateView(CreateView):
     context_object_name = 'form'
     success_url = '/shop'
 
-
     def form_valid(self, form):
         obj = form.save(commit=False)
         obj.created_by = self.request.user

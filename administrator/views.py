@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from ufs.models import Message
-from customercorner.models import Product
 from django.views.generic import DetailView, ListView , CreateView , DeleteView , TemplateView
 
 class MessageListView(ListView):

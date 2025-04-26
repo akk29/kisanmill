@@ -4,7 +4,6 @@ from django.contrib.auth import login, authenticate
 
 from .forms import SignUpForm
 
-
 @login_required
 def home(request):
     print(request.user)

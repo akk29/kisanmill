@@ -1,4 +1,4 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import redirect
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import CreateView, DetailView , ListView
 from .models import Auction , Services , Bidding
@@ -75,7 +75,6 @@ class BiddingCreateView(LoginRequiredMixin,CreateView):
         obj.bid_by = self.request.user
         # print self.kwargs['pk']
         a = Auction.objects.get(pk = self.kwargs['pk'])
-        print a
         obj.Auction = a
         obj.save()
         return redirect('/shop/myauction')
