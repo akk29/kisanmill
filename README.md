@@ -9,7 +9,7 @@ Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
 
 ---
 
-### 1. Steps for setting project locally - via source code (Will take time)
+### 1. Steps for setting project
 
 ```
 # download source code
@@ -21,7 +21,8 @@ cd kisanmill
 # path to python 2.7.16, setting up virtual environment
 python.exe -m pip install --trusted-host pypi.python.org virtualenv
 python -m virtualenv .venv
-source .venv/bin/activate
+.venv\Scripts\activate # windows
+source .venv/bin/activate # linux
 
 # install requirements
 pip install -r requirements.txt
@@ -33,12 +34,12 @@ python manage.py migrate
 python manage.py runserver 0.0.0.0:8080
 ```
 
-### 2. Steps for runing project locally - via Docker image (Easy & preferred - no dependencies installation)
+### 2. Steps for running project via docker
 
 Pull publicly hosted image from docker repository & run directly on your system
 
 ```
-docker run -d -p 8080:8000 --name kisanmill babygame0ver/docker-repository:kisanmill
+docker run -d -p 8080:8000 --name kisanmill akk29/public:kisanmill
 ```
 
 ## Demo : [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser
