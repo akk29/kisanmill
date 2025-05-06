@@ -10,7 +10,7 @@ class Product_type(models.Model):
 class Product(models.Model):
 
     Product_name = models.CharField(max_length = 10, blank = False , null = False)
-    Product_type = models.ForeignKey(Product_type)
+    Product_type = models.ForeignKey(Product_type,on_delete=models.CASCADE)
     Product_version = models.CharField(max_length = 15, blank = False , null = False)
     Product_Images = models.ImageField()
 
@@ -116,7 +116,7 @@ class CultivationMethods(models.Model):
     ('alluvial','Alluvial'),
     ('loamy','Loamy')
     )
-    Select_Product = models.ForeignKey(Product)
+    Select_Product = models.ForeignKey(Product,on_delete=models.CASCADE)
     Description = models.CharField(max_length = 1500)
     Investment_cost = models.IntegerField()
     Season = models.CharField(max_length = 10 , choices = Seasons_list,default=None)

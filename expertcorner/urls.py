@@ -1,9 +1,9 @@
-from django.conf.urls import url
+from django.urls import path
 from . import views
 app_name = 'expertcorner'
 
 urlpatterns = [
 
-    url(r'^suggest/$',views.ExpertCornerCreateView.as_view(),name = 'suggest'),
+    path(r'^suggest/$',views.ExpertCornerCreateView.as_view(),name = 'suggest'),
 
 ]

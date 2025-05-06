@@ -8,7 +8,7 @@ from customercorner.models import Product
 class Message(models.Model):
     title = models.CharField(max_length = 15)
     # created_by = models.ForeignKey(User)
-    effected_crop = models.ForeignKey(Product)
+    effected_crop = models.ForeignKey(Product,on_delete=models.CASCADE)
     Description = models.CharField(max_length = 1500 , null = False , blank = False)
     Images = models.CharField(max_length = 300 , default = '')
     # First_seen = models.DateTimeField()

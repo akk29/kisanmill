@@ -4,8 +4,8 @@ from django.contrib.auth.models import User
 
 
 class Auction(models.Model):
-    created_by = models.ForeignKey(User)
-    Product = models.ForeignKey(Product)
+    created_by = models.ForeignKey(User,on_delete=models.CASCADE)
+    Product = models.ForeignKey(Product,on_delete=models.CASCADE)
     Price = models.IntegerField()
     Quality = models.CharField(max_length = 150)
     image = models.CharField(max_length = 500)
@@ -25,7 +25,7 @@ class Auction(models.Model):
 
 class Bidding(models.Model):
     Auction = models.ForeignKey(Auction,on_delete=models.CASCADE)
-    bid_by = models.ForeignKey(User)
+    bid_by = models.ForeignKey(User,on_delete=models.CASCADE)
     Bidding_Price = models.IntegerField()
     sample = models.BooleanField()
     Query = models.CharField(max_length = 150)

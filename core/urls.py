@@ -1,15 +1,14 @@
-from django.conf.urls import url, include
+from django.urls import path
 from django.contrib.auth import views as auth_views
 
 from . import views as core_views
 
-
 app_name = 'core'
 
 urlpatterns = [
-    url(r'^$', core_views.home, name='home'),
-    url(r'^login/$', core_views.login_user,name='login'),
-    url(r'^log_in/$', auth_views.login,{'template_name': 'core/login.html',},name='login'),
-    url(r'^logout/$', auth_views.logout, {'next_page': '/login/'}, name='logout'),
-    url(r'^signup/$', core_views.signup, name='signup'),
+    path('/', core_views.home, name='home'),
+    path('login', core_views.login_user,name='login'),
+    path('log_in', auth_views.LoginView.as_view(),{'template_name': 'core/login.html',},name='login'),
+    path('logout', auth_views.LogoutView.as_view(), {'next_page': '/login/'}, name='logout'),
+    path('signup', core_views.signup, name='signup'),
 ]
