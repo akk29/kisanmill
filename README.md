@@ -1,6 +1,8 @@
 # KisanMill
 
-Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
+KisanMill is a B2C & C2C platform for Agriculture Sector to eliminate the middleman & increase profits.
+
+Hackathon Project | World Food India Hackathon 2017 | New Delhi, India
 
 ## Dependencies
 
@@ -29,18 +31,16 @@ pip install -r requirements.txt
 # run development server locally
 python manage.py makemigrations
 python manage.py migrate
-python manage.py runserver 0.0.0.0:8080
+python manage.py runserver 0.0.0.0:8000
 ```
 
 ### 2. Steps for running project via docker
-
-Pull publicly hosted image from docker repository & run directly on your system
 
 ```shell
 docker compose up
 ```
 
-## Demo : [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser
+## Demo : [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser
 
 
 [Documentation](docs.md)
