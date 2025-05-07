@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 
 
 class Auction(models.Model):
+    id = models.AutoField(primary_key=True)
     created_by = models.ForeignKey(User,on_delete=models.CASCADE)
     Product = models.ForeignKey(Product,on_delete=models.CASCADE)
     Price = models.IntegerField()
@@ -24,6 +25,7 @@ class Auction(models.Model):
         return self.bidding_set.all()
 
 class Bidding(models.Model):
+    id = models.AutoField(primary_key=True)
     Auction = models.ForeignKey(Auction,on_delete=models.CASCADE)
     bid_by = models.ForeignKey(User,on_delete=models.CASCADE)
     Bidding_Price = models.IntegerField()
@@ -38,6 +40,7 @@ class Bidding(models.Model):
 
 
 class Services(models.Model):
+    id = models.AutoField(primary_key=True)
     Company_Name = models.CharField(max_length = 150)
     Service_name = models.CharField(max_length = 200)
     Price = models.IntegerField()

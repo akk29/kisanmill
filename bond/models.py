@@ -4,6 +4,7 @@ from customercorner.models import Product
 
 
 class Bond(models.Model):
+    id = models.AutoField(primary_key=True)
     created_by = models.ForeignKey(User,null=True,on_delete=models.CASCADE)
     # Specific_Products = models.ManyToManyField(Product,null=True)
     name = models.CharField(max_length = 15)

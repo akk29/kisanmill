@@ -4,6 +4,6 @@ app_name = 'expertcorner'
 
 urlpatterns = [
 
-    path(r'^suggest/$',views.ExpertCornerCreateView.as_view(),name = 'suggest'),
+    path('suggest/',views.ExpertCornerCreateView.as_view(),name = 'suggest'),
 
 ]

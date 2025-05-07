@@ -6,9 +6,11 @@ from . import views as core_views
 app_name = 'core'
 
 urlpatterns = [
-    path('/', core_views.home, name='home'),
+    path('', core_views.home, name='home'),
     path('login', core_views.login_user,name='login'),
-    path('log_in', auth_views.LoginView.as_view(),{'template_name': 'core/login.html',},name='login'),
-    path('logout', auth_views.LogoutView.as_view(), {'next_page': '/login/'}, name='logout'),
+
+    path('log_in/', auth_views.LoginView.as_view(template_name='core/login.html'),name='login'),
+    path('logout', core_views.my_logout_then_login, name='logout'),
+    
     path('signup', core_views.signup, name='signup'),
 ]

@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from customercorner.models import Product
 
 class ExpertCorner(models.Model):
+    id = models.AutoField(primary_key=True)
     posted_by = models.ForeignKey(User,on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)
     Product = models.ForeignKey(Product,on_delete=models.CASCADE)

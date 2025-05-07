@@ -1,6 +1,7 @@
 from django.db import models
 
 class Product_type(models.Model):
+    id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=15,null=False,blank=False)
     image = models.ImageField()
 
@@ -8,7 +9,7 @@ class Product_type(models.Model):
         return self.name
 
 class Product(models.Model):
-
+    id = models.AutoField(primary_key=True)
     Product_name = models.CharField(max_length = 10, blank = False , null = False)
     Product_type = models.ForeignKey(Product_type,on_delete=models.CASCADE)
     Product_version = models.CharField(max_length = 15, blank = False , null = False)
@@ -55,6 +56,7 @@ class Product(models.Model):
 
 
 class PreProductInfo(models.Model):
+    id = models.AutoField(primary_key=True)
     Seasons_list = (
     ('Summer','Summer'),
     ('Winter','Winter')
@@ -82,6 +84,7 @@ class PreProductInfo(models.Model):
         return str(self.Soil_type).capitalize()
 
 class NutrionalContent(models.Model):
+    id = models.AutoField(primary_key=True)
     Select_Product = models.ForeignKey(Product,on_delete=models.CASCADE,default = None)
     # NutrionalData = models.TextField(max_length=1500,help_text='Please seprate the Nutrional Content by comma\'s',null=False,blank=False)
     ConsumptionEffect = models.TextField(max_length=1500,help_text='Please seprate the Consumption Effect by comma\'s',null=False,blank=False)
@@ -97,17 +100,20 @@ class NutrionalContent(models.Model):
         return "Nutrional content -- " + str(self.Select_Product.Product_version) + " " + str(self.Select_Product.Product_name)
 
 class GoodQualityCondition(models.Model):
+    id = models.AutoField(primary_key=True)
     Select_Product = models.ForeignKey(Product,on_delete=models.CASCADE,default = None)
     CheckingConditions = models.TextField(max_length=1500,help_text='Please seprate the Good Conditions of the Product by comma\'s',null=False,blank=False)
     Good_Images = models.ImageField()
 
 class BadQualityCondition(models.Model):
+    id = models.AutoField(primary_key=True)
     Select_Product = models.ForeignKey(Product,on_delete=models.CASCADE,default = None)
     CheckingConditions = models.TextField(max_length=1500,help_text='Please seprate the Good Conditions of the Product by comma\'s',null=False,blank=False)
     Good_Images = models.ImageField()
 
 
 class CultivationMethods(models.Model):
+    id = models.AutoField(primary_key=True)
     Seasons_list = (
     ('Summer','Summer'),
     ('Winter','Winter')

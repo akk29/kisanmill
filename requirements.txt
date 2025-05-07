@@ -1,5 +1,8 @@
+asgiref==3.8.1
 Django==5.2
-django-bootstrap3==9.1.0
+django-bootstrap3==25.1
 gunicorn==19.10.0
+pillow==11.2.1
 pytz==2018.3
-Pillow==6.2.2
+sqlparse==0.5.3
+tzdata==2025.2
