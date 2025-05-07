@@ -4,22 +4,21 @@ Hackathon Project | World Food India Hackathon 2017 | New Delhi , India
 
 ## Dependencies
 
-[![Python](https://img.shields.io/badge/python-2.7.16-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-2716/)
-[![Django Web Framework](https://img.shields.io/badge/Django-1.11.10-blue.svg?style=flat-square)](https://pypi.org/project/Django/1.11.10/)
+[![Python](https://img.shields.io/badge/python-3.13.3-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-3133/)
+[![Django Web Framework](https://img.shields.io/badge/Django-5.2-blue.svg?style=flat-square)](https://pypi.org/project/Django/5.2/)
 
 ---
 
 ### 1. Steps for setting project
 
-```
+```shell
 # download source code
 git clone https://github.com/akk29/kisanmill
 
 # go inside directory
 cd kisanmill
 
-# path to python 2.7.16, setting up virtual environment
-python.exe -m pip install --trusted-host pypi.python.org virtualenv
+# setting up virtual environment
 python -m virtualenv .venv
 .venv\Scripts\activate # windows
 source .venv/bin/activate # linux
@@ -28,7 +27,6 @@ source .venv/bin/activate # linux
 pip install -r requirements.txt
 
 # run development server locally
-python manage.py collectstatic --no-input
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver 0.0.0.0:8080
@@ -38,8 +36,8 @@ python manage.py runserver 0.0.0.0:8080
 
 Pull publicly hosted image from docker repository & run directly on your system
 
-```
-docker run -d -p 8080:8000 --name kisanmill akk29/public:kisanmill
+```shell
+docker compose up
 ```
 
 ## Demo : [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser
