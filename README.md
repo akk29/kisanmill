@@ -11,7 +11,7 @@ Hackathon Project | World Food India Hackathon 2017 | New Delhi, India
 
 ---
 
-### 1. Steps for setting project
+### 1. Steps for setting up project
 
 ```shell
 # download source code
